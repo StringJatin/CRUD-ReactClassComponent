@@ -1,0 +1,24 @@
+.container{
+    margin: 12px auto;
+
+}
+
+.action-buttons {
+    display: flex;
+    
+  }
+  
+  .edit-button, .delete-button {
+    padding: 8px 16px;
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 2px;
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red */
+  }
+  
