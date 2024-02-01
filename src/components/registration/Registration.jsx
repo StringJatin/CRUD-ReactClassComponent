@@ -343,6 +343,7 @@ export default class Registration extends Component {
                         : "initial",
                     },
                   }}
+                  inputProps={{ max: new Date().toISOString().split("T")[0] }}
                 />
               </div>
               <div className="inputRow" id="address">
